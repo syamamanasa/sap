@@ -3,9 +3,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sap</groupId>
   <artifactId>sap</artifactId>
+<<<<<<< HEAD
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>sap Maven Webapp</name>
+=======
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>sap</name>
+>>>>>>> 5cfebac7f9b8a68a0bdc9d72e25bd42f80b74978
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,7 +21,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<<<<<<< HEAD
   <build>
     <finalName>sap</finalName>
   </build>
+=======
+>>>>>>> 5cfebac7f9b8a68a0bdc9d72e25bd42f80b74978
 </project>
