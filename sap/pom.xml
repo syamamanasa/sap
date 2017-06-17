@@ -24,6 +24,17 @@
         <url>http://localhost:8080</url>
     </repository>
     </distributionManagement>
+  
+  <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.3</version>
+            <configuration>
+             <warName>sap</warName>
+             <outputDirectory>/home/rajas/softwares/apache-tomcat-6.0.53/webapps
+</outputDirectory>
+            </configuration>
+        </plugin>
 
   <build>
     <finalName>sap</finalName>
