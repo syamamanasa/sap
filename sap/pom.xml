@@ -25,7 +25,11 @@
     </repository>
     </distributionManagement>
   
-  <plugin>
+ 
+  <build>
+    <finalName>sap</finalName>
+    
+     <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>2.3</version>
@@ -34,7 +38,6 @@
              <outputDirectory>/home/rajas/softwares/apache-tomcat-6.0.53/webapps</outputDirectory>
             </configuration>
         </plugin>
-  <build>
-    <finalName>sap</finalName>
+    
   </build>
 </project>
