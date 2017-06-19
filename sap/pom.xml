@@ -38,6 +38,20 @@
              <outputDirectory>/home/rajas/softwares/apache-tomcat-6.0.53/webapps</outputDirectory>
             </configuration>
        </plugin>
+      
+      <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.1.2</version>
+                <executions>
+                    <execution>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>war</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+      
       </plugins>
     
   </build>
