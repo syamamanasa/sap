@@ -23,35 +23,13 @@
         <name>tom</name>
         <url>http://localhost:8080</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>plugins-snapshot</name>
-        <url>http://serverip:8081/artifactory/plugins-snapshot-local</url>
-    </snapshotRepository>
     
     
     
     
     </distributionManagement>
   
-  <repositories>
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-        <updatePolicy>always</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-      <id>codehausSnapshots</id>
-      <name>Codehaus Snapshots</name>
-      <url>http://snapshots.maven.codehaus.org/maven2</url>
-      <layout>default</layout>
-    </repository>
-  </repositories>
+  
   
   
   
