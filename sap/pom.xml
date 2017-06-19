@@ -47,6 +47,7 @@
                         <phase>deploy</phase>
                         <goals>
                             <goal>war</goal>
+                          <goal>deploy-file</goal>
                         </goals>
                     </execution>
                 </executions>
